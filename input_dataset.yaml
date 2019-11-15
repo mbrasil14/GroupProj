@@ -1,0 +1,6 @@
+- "left reads":
+  - "/bigdata/FinalProject_data/190724_SARA_Genomes/SARA_2_S25_L004_R1_001.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/bigdata/FinalProject_data/190724_SARA_Genomes/SARA_2_S25_L004_R2_001.fastq.gz"
+  "type": "paired-end"

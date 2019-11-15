@@ -1,0 +1,36 @@
+Command line: /data/home/softwares/SPAdes-3.13.1-Linux/bin/spades.py	-1	/bigdata/FinalProject_data/190724_SARA_Genomes/SARA_2_S25_L004_R1_001.fastq.gz	-2	/bigdata/FinalProject_data/190724_SARA_Genomes/SARA_2_S25_L004_R2_001.fastq.gz	-t	1	-m	16	-o	/home/5495820/GroupProj	
+
+System information:
+  SPAdes version: 3.13.1
+  Python version: 2.7.16
+  OS: Linux-4.14.146-119.123.amzn2.x86_64-x86_64-with-glibc2.2.5
+
+Output dir: /home/5495820/GroupProj
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/bigdata/FinalProject_data/190724_SARA_Genomes/SARA_2_S25_L004_R1_001.fastq.gz']
+      right reads: ['/bigdata/FinalProject_data/190724_SARA_Genomes/SARA_2_S25_L004_R2_001.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /home/5495820/GroupProj/tmp
+  Threads: 1
+  Memory limit (in Gb): 16
+
